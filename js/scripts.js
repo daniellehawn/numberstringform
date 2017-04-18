@@ -35,7 +35,7 @@ function updateText(addData) {
   
   var text = addData.toLowerCase().split(" ");
   
-  $('#conCat').text(textString);
+  $('#conCat').text(textString.join(' '));
   $('#totalStrings').text(textString.length);
 }
 
